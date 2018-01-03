@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E31FFD9E300070A903 /* CanvasViewController.m */; };
+		4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E61FFD9E480070A903 /* PaletteViewController.m */; };
+		4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */; };
+		4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983EC1FFD9E800070A903 /* CoordinatingController.m */; };
 		4CE3B5261FFC4843003031D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5251FFC4843003031D0 /* main.m */; };
 		4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5281FFC4843003031D0 /* AppDelegate.m */; };
 		4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B52B1FFC4843003031D0 /* ViewController.m */; };
@@ -34,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C9983E21FFD9E300070A903 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		4C9983E31FFD9E300070A903 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		4C9983E51FFD9E480070A903 /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
+		4C9983E61FFD9E480070A903 /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
+		4C9983E81FFD9E5C0070A903 /* ThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
+		4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
+		4C9983EB1FFD9E800070A903 /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
+		4C9983EC1FFD9E800070A903 /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
 		4CE3B5211FFC4843003031D0 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE3B5251FFC4843003031D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CE3B5271FFC4843003031D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +115,14 @@
 				4CE3B5281FFC4843003031D0 /* AppDelegate.m */,
 				4CE3B52A1FFC4843003031D0 /* ViewController.h */,
 				4CE3B52B1FFC4843003031D0 /* ViewController.m */,
+				4C9983E21FFD9E300070A903 /* CanvasViewController.h */,
+				4C9983E31FFD9E300070A903 /* CanvasViewController.m */,
+				4C9983E51FFD9E480070A903 /* PaletteViewController.h */,
+				4C9983E61FFD9E480070A903 /* PaletteViewController.m */,
+				4C9983E81FFD9E5C0070A903 /* ThumbnailViewController.h */,
+				4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */,
+				4C9983EB1FFD9E800070A903 /* CoordinatingController.h */,
+				4C9983EC1FFD9E800070A903 /* CoordinatingController.m */,
 				4CE3B5301FFC4843003031D0 /* Assets.xcassets */,
 				4CE3B5321FFC4843003031D0 /* LaunchScreen.storyboard */,
 				4CE3B5351FFC4843003031D0 /* Info.plist */,
@@ -269,9 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
 				4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */,
 				4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */,
+				4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */,
+				4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
+				4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
