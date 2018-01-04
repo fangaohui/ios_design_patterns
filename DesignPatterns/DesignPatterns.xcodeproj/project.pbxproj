@@ -11,6 +11,9 @@
 		4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E61FFD9E480070A903 /* PaletteViewController.m */; };
 		4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */; };
 		4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983EC1FFD9E800070A903 /* CoordinatingController.m */; };
+		4C9983F21FFEF0150070A903 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F11FFEF0150070A903 /* Scribble.m */; };
+		4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */; };
+		4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F71FFEF0430070A903 /* ScribbleManager.m */; };
 		4CE3B5261FFC4843003031D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5251FFC4843003031D0 /* main.m */; };
 		4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5281FFC4843003031D0 /* AppDelegate.m */; };
 		4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B52B1FFC4843003031D0 /* ViewController.m */; };
@@ -46,6 +49,12 @@
 		4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
 		4C9983EB1FFD9E800070A903 /* CoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
 		4C9983EC1FFD9E800070A903 /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
+		4C9983F01FFEF0150070A903 /* Scribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
+		4C9983F11FFEF0150070A903 /* Scribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
+		4C9983F31FFEF02F0070A903 /* ScribbleMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
+		4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
+		4C9983F61FFEF0430070A903 /* ScribbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
+		4C9983F71FFEF0430070A903 /* ScribbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
 		4CE3B5211FFC4843003031D0 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE3B5251FFC4843003031D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CE3B5271FFC4843003031D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +132,12 @@
 				4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */,
 				4C9983EB1FFD9E800070A903 /* CoordinatingController.h */,
 				4C9983EC1FFD9E800070A903 /* CoordinatingController.m */,
+				4C9983F01FFEF0150070A903 /* Scribble.h */,
+				4C9983F11FFEF0150070A903 /* Scribble.m */,
+				4C9983F31FFEF02F0070A903 /* ScribbleMemento.h */,
+				4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */,
+				4C9983F61FFEF0430070A903 /* ScribbleManager.h */,
+				4C9983F71FFEF0430070A903 /* ScribbleManager.m */,
 				4CE3B5301FFC4843003031D0 /* Assets.xcassets */,
 				4CE3B5321FFC4843003031D0 /* LaunchScreen.storyboard */,
 				4CE3B5351FFC4843003031D0 /* Info.plist */,
@@ -291,7 +306,10 @@
 			files = (
 				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
 				4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */,
+				4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */,
+				4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */,
 				4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */,
+				4C9983F21FFEF0150070A903 /* Scribble.m in Sources */,
 				4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */,
 				4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
