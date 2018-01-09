@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA49D200426A00038BC35 /* PrototypeClass_1.m */; };
 		4C1DA4A12004272E0038BC35 /* PrototypeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4A02004272E0038BC35 /* PrototypeClient.m */; };
+		4C1DA4A520057BB30038BC35 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4A420057BB30038BC35 /* CanvasView.m */; };
+		4C1DA4A820057C150038BC35 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4A720057C150038BC35 /* PaperCanvasView.m */; };
+		4C1DA4AB20057C2C0038BC35 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4AA20057C2C0038BC35 /* ClothCanvasView.m */; };
+		4C1DA4AE20057CA10038BC35 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4AD20057CA10038BC35 /* CanvasViewGenerator.m */; };
+		4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B020057D020038BC35 /* PaperCanvasViewGenerator.m */; };
+		4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */; };
+		4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */; };
 		4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E31FFD9E300070A903 /* CanvasViewController.m */; };
 		4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E61FFD9E480070A903 /* PaletteViewController.m */; };
 		4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */; };
@@ -48,6 +55,20 @@
 		4C1DA49D200426A00038BC35 /* PrototypeClass_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeClass_1.m; sourceTree = "<group>"; };
 		4C1DA49F2004272E0038BC35 /* PrototypeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeClient.h; sourceTree = "<group>"; };
 		4C1DA4A02004272E0038BC35 /* PrototypeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeClient.m; sourceTree = "<group>"; };
+		4C1DA4A320057BB30038BC35 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		4C1DA4A420057BB30038BC35 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		4C1DA4A620057C150038BC35 /* PaperCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		4C1DA4A720057C150038BC35 /* PaperCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		4C1DA4A920057C2C0038BC35 /* ClothCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		4C1DA4AA20057C2C0038BC35 /* ClothCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		4C1DA4AC20057CA10038BC35 /* CanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		4C1DA4AD20057CA10038BC35 /* CanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		4C1DA4AF20057D020038BC35 /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		4C1DA4B020057D020038BC35 /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		4C1DA4B220057D150038BC35 /* ClothCanvasViewGenterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenterator.h; sourceTree = "<group>"; };
+		4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenterator.m; sourceTree = "<group>"; };
+		4C1DA4B520057D7F0038BC35 /* CanvasFactoryEgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasFactoryEgViewController.h; sourceTree = "<group>"; };
+		4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasFactoryEgViewController.m; sourceTree = "<group>"; };
 		4C9983E21FFD9E300070A903 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		4C9983E31FFD9E300070A903 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		4C9983E51FFD9E480070A903 /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
@@ -116,6 +137,27 @@
 			name = Prototype;
 			sourceTree = "<group>";
 		};
+		4C1DA4A220057B870038BC35 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				4C1DA4A320057BB30038BC35 /* CanvasView.h */,
+				4C1DA4A420057BB30038BC35 /* CanvasView.m */,
+				4C1DA4A620057C150038BC35 /* PaperCanvasView.h */,
+				4C1DA4A720057C150038BC35 /* PaperCanvasView.m */,
+				4C1DA4A920057C2C0038BC35 /* ClothCanvasView.h */,
+				4C1DA4AA20057C2C0038BC35 /* ClothCanvasView.m */,
+				4C1DA4AC20057CA10038BC35 /* CanvasViewGenerator.h */,
+				4C1DA4AD20057CA10038BC35 /* CanvasViewGenerator.m */,
+				4C1DA4AF20057D020038BC35 /* PaperCanvasViewGenerator.h */,
+				4C1DA4B020057D020038BC35 /* PaperCanvasViewGenerator.m */,
+				4C1DA4B220057D150038BC35 /* ClothCanvasViewGenterator.h */,
+				4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */,
+				4C1DA4B520057D7F0038BC35 /* CanvasFactoryEgViewController.h */,
+				4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */,
+			);
+			name = FactoryMethod;
+			sourceTree = "<group>";
+		};
 		4CE3B5181FFC4843003031D0 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +181,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4C1DA4A220057B870038BC35 /* FactoryMethod */,
 				4C1DA49A2004262B0038BC35 /* Prototype */,
 				4CE3B5271FFC4843003031D0 /* AppDelegate.h */,
 				4CE3B5281FFC4843003031D0 /* AppDelegate.m */,
@@ -324,18 +367,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1DA4A520057BB30038BC35 /* CanvasView.m in Sources */,
 				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
 				4C1DA4A12004272E0038BC35 /* PrototypeClient.m in Sources */,
 				4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */,
+				4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */,
 				4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */,
 				4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */,
 				4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */,
 				4C9983F21FFEF0150070A903 /* Scribble.m in Sources */,
+				4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */,
 				4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */,
+				4C1DA4A820057C150038BC35 /* PaperCanvasView.m in Sources */,
 				4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */,
 				4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
+				4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */,
 				4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */,
+				4C1DA4AE20057CA10038BC35 /* CanvasViewGenerator.m in Sources */,
+				4C1DA4AB20057C2C0038BC35 /* ClothCanvasView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
