@@ -23,6 +23,11 @@
 		4C9983F21FFEF0150070A903 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F11FFEF0150070A903 /* Scribble.m */; };
 		4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */; };
 		4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F71FFEF0430070A903 /* ScribbleManager.m */; };
+		4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F02006D89E001BD420 /* BuilderClientViewController.m */; };
+		4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F32006D8DC001BD420 /* AbstractBuilder.m */; };
+		4CC901F72006D8FC001BD420 /* BuilderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F62006D8FC001BD420 /* BuilderObject.m */; };
+		4CC901FA2006D937001BD420 /* SubBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F92006D937001BD420 /* SubBuilder.m */; };
+		4CC901FD2006D984001BD420 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901FC2006D984001BD420 /* Director.m */; };
 		4CE3B5261FFC4843003031D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5251FFC4843003031D0 /* main.m */; };
 		4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5281FFC4843003031D0 /* AppDelegate.m */; };
 		4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B52B1FFC4843003031D0 /* ViewController.m */; };
@@ -83,6 +88,16 @@
 		4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
 		4C9983F61FFEF0430070A903 /* ScribbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
 		4C9983F71FFEF0430070A903 /* ScribbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
+		4CC901EF2006D89E001BD420 /* BuilderClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderClientViewController.h; sourceTree = "<group>"; };
+		4CC901F02006D89E001BD420 /* BuilderClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderClientViewController.m; sourceTree = "<group>"; };
+		4CC901F22006D8DC001BD420 /* AbstractBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBuilder.h; sourceTree = "<group>"; };
+		4CC901F32006D8DC001BD420 /* AbstractBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractBuilder.m; sourceTree = "<group>"; };
+		4CC901F52006D8FC001BD420 /* BuilderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderObject.h; sourceTree = "<group>"; };
+		4CC901F62006D8FC001BD420 /* BuilderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderObject.m; sourceTree = "<group>"; };
+		4CC901F82006D937001BD420 /* SubBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubBuilder.h; sourceTree = "<group>"; };
+		4CC901F92006D937001BD420 /* SubBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubBuilder.m; sourceTree = "<group>"; };
+		4CC901FB2006D984001BD420 /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		4CC901FC2006D984001BD420 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
 		4CE3B5211FFC4843003031D0 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE3B5251FFC4843003031D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CE3B5271FFC4843003031D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -158,6 +173,23 @@
 			name = FactoryMethod;
 			sourceTree = "<group>";
 		};
+		4CC901EE2006D874001BD420 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				4CC901EF2006D89E001BD420 /* BuilderClientViewController.h */,
+				4CC901F02006D89E001BD420 /* BuilderClientViewController.m */,
+				4CC901F22006D8DC001BD420 /* AbstractBuilder.h */,
+				4CC901F32006D8DC001BD420 /* AbstractBuilder.m */,
+				4CC901F52006D8FC001BD420 /* BuilderObject.h */,
+				4CC901F62006D8FC001BD420 /* BuilderObject.m */,
+				4CC901F82006D937001BD420 /* SubBuilder.h */,
+				4CC901F92006D937001BD420 /* SubBuilder.m */,
+				4CC901FB2006D984001BD420 /* Director.h */,
+				4CC901FC2006D984001BD420 /* Director.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
 		4CE3B5181FFC4843003031D0 = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +213,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4CC901EE2006D874001BD420 /* Builder */,
 				4C1DA4A220057B870038BC35 /* FactoryMethod */,
 				4C1DA49A2004262B0038BC35 /* Prototype */,
 				4CE3B5271FFC4843003031D0 /* AppDelegate.h */,
@@ -368,13 +401,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1DA4A520057BB30038BC35 /* CanvasView.m in Sources */,
+				4CC901FD2006D984001BD420 /* Director.m in Sources */,
+				4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */,
 				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
+				4CC901FA2006D937001BD420 /* SubBuilder.m in Sources */,
 				4C1DA4A12004272E0038BC35 /* PrototypeClient.m in Sources */,
 				4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */,
 				4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */,
 				4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */,
 				4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */,
 				4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */,
+				4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */,
+				4CC901F72006D8FC001BD420 /* BuilderObject.m in Sources */,
 				4C9983F21FFEF0150070A903 /* Scribble.m in Sources */,
 				4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */,
 				4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */,
