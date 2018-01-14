@@ -10,4 +10,7 @@
 
 @interface BuilderObject : NSObject
 
+@property(nonatomic,assign)NSInteger power;
+@property(nonatomic,assign)NSInteger result;
+
 @end

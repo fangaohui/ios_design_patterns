@@ -10,4 +10,13 @@
 
 @implementation BuilderObject
 
+-(instancetype)init
+{
+    if (self = [super init]) {
+        self.power = 1.0;
+        self.result = 1.0;
+    }
+    return self;
+}
+
 @end

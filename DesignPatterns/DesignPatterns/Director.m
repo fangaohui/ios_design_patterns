@@ -12,12 +12,16 @@
 
 -(BuilderObject *)createA:(AbstractBuilder *)builderA
 {
-    return nil;
+    [builderA buildNewObj];
+    [builderA buildPower:100];
+    return [builderA obj];
 }
 
 -(BuilderObject *)createB:(AbstractBuilder *)builderB
 {
-    return nil;
+    [builderB buildNewObj];
+    [builderB buildPower:200];
+    return [builderB obj];
 }
 
 @end

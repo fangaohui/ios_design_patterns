@@ -7,6 +7,9 @@
 //
 
 #import "BuilderClientViewController.h"
+#import "AbstractBuilder.h"
+#import "BuilderObject.h"
+#import "Director.h"
 
 @interface BuilderClientViewController ()
 
@@ -17,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    AbstractBuilder *bulider = [[AbstractBuilder alloc] init];
+    Director *director = [[Director alloc] init];
+    BuilderObject *obj1 = [director createA:bulider];
+    BuilderObject *obj2 = [director createB:bulider];
+    
 }
 
 - (void)didReceiveMemoryWarning {

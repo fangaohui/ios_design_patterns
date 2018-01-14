@@ -10,4 +10,18 @@
 
 @implementation AbstractBuilder
 
+@synthesize obj = _obj;
+
+-(AbstractBuilder *)buildNewObj
+{
+    _obj = [[BuilderObject alloc] init];
+    return self;
+}
+
+-(AbstractBuilder *)buildPower:(NSInteger)value
+{
+    _obj.power = value;
+    return self;
+}
+
 @end

@@ -10,7 +10,13 @@
 #import "BuilderObject.h"
 
 @interface AbstractBuilder : NSObject
+{
+    BuilderObject *_obj;
+}
 
+@property(nonatomic,strong,readonly)BuilderObject *obj;
 
+-(AbstractBuilder *)buildNewObj;
+-(AbstractBuilder *)buildPower:(NSInteger)value;
 
 @end

@@ -10,4 +10,10 @@
 
 @implementation SubBuilder
 
+-(AbstractBuilder *)buildPower:(NSInteger)value
+{
+    _obj.result *= value;
+    return [super buildPower:value];
+}
+
 @end
