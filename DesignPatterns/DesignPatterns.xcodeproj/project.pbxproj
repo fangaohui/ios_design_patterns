@@ -173,6 +173,13 @@
 			name = FactoryMethod;
 			sourceTree = "<group>";
 		};
+		4C4A9AB0200D6AE400CE59E0 /* Adaptee */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Adaptee;
+			sourceTree = "<group>";
+		};
 		4CC901EE2006D874001BD420 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +220,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4C4A9AB0200D6AE400CE59E0 /* Adaptee */,
 				4CC901EE2006D874001BD420 /* Builder */,
 				4C1DA4A220057B870038BC35 /* FactoryMethod */,
 				4C1DA49A2004262B0038BC35 /* Prototype */,
