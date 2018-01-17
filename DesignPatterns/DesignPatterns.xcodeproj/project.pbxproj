@@ -16,6 +16,8 @@
 		4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B020057D020038BC35 /* PaperCanvasViewGenerator.m */; };
 		4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */; };
 		4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */; };
+		4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB2200EC9A200CE59E0 /* Command.m */; };
+		4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB5200EC9DE00CE59E0 /* CommandSlider.m */; };
 		4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E31FFD9E300070A903 /* CanvasViewController.m */; };
 		4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E61FFD9E480070A903 /* PaletteViewController.m */; };
 		4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */; };
@@ -74,6 +76,10 @@
 		4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenterator.m; sourceTree = "<group>"; };
 		4C1DA4B520057D7F0038BC35 /* CanvasFactoryEgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasFactoryEgViewController.h; sourceTree = "<group>"; };
 		4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasFactoryEgViewController.m; sourceTree = "<group>"; };
+		4C4A9AB1200EC9A200CE59E0 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		4C4A9AB2200EC9A200CE59E0 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		4C4A9AB4200EC9DE00CE59E0 /* CommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
+		4C4A9AB5200EC9DE00CE59E0 /* CommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
 		4C9983E21FFD9E300070A903 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		4C9983E31FFD9E300070A903 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		4C9983E51FFD9E480070A903 /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
@@ -176,6 +182,10 @@
 		4C4A9AB0200D6AE400CE59E0 /* Adaptee */ = {
 			isa = PBXGroup;
 			children = (
+				4C4A9AB1200EC9A200CE59E0 /* Command.h */,
+				4C4A9AB2200EC9A200CE59E0 /* Command.m */,
+				4C4A9AB4200EC9DE00CE59E0 /* CommandSlider.h */,
+				4C4A9AB5200EC9DE00CE59E0 /* CommandSlider.m */,
 			);
 			name = Adaptee;
 			sourceTree = "<group>";
@@ -427,6 +437,8 @@
 				4C1DA4A820057C150038BC35 /* PaperCanvasView.m in Sources */,
 				4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */,
 				4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */,
+				4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */,
+				4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
 				4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */,
 				4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */,
