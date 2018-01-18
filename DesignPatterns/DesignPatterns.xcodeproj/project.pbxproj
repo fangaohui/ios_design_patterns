@@ -18,6 +18,11 @@
 		4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */; };
 		4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB2200EC9A200CE59E0 /* Command.m */; };
 		4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB5200EC9DE00CE59E0 /* CommandSlider.m */; };
+		4C4A9ABA201019C800CE59E0 /* Abstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB9201019C800CE59E0 /* Abstraction.m */; };
+		4C4A9ABD201019FD00CE59E0 /* Implementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9ABC201019FD00CE59E0 /* Implementor.m */; };
+		4C4A9AC020101A5200CE59E0 /* SubImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9ABF20101A5200CE59E0 /* SubImplementor.m */; };
+		4C4A9AC320101A7100CE59E0 /* SubImplementor1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC220101A7100CE59E0 /* SubImplementor1.m */; };
+		4C4A9AC620101AF500CE59E0 /* SubAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC520101AF500CE59E0 /* SubAbstraction.m */; };
 		4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E31FFD9E300070A903 /* CanvasViewController.m */; };
 		4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E61FFD9E480070A903 /* PaletteViewController.m */; };
 		4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */; };
@@ -80,6 +85,16 @@
 		4C4A9AB2200EC9A200CE59E0 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		4C4A9AB4200EC9DE00CE59E0 /* CommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
 		4C4A9AB5200EC9DE00CE59E0 /* CommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
+		4C4A9AB8201019C800CE59E0 /* Abstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abstraction.h; sourceTree = "<group>"; };
+		4C4A9AB9201019C800CE59E0 /* Abstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Abstraction.m; sourceTree = "<group>"; };
+		4C4A9ABB201019FD00CE59E0 /* Implementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implementor.h; sourceTree = "<group>"; };
+		4C4A9ABC201019FD00CE59E0 /* Implementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Implementor.m; sourceTree = "<group>"; };
+		4C4A9ABE20101A5200CE59E0 /* SubImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubImplementor.h; sourceTree = "<group>"; };
+		4C4A9ABF20101A5200CE59E0 /* SubImplementor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubImplementor.m; sourceTree = "<group>"; };
+		4C4A9AC120101A7100CE59E0 /* SubImplementor1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubImplementor1.h; sourceTree = "<group>"; };
+		4C4A9AC220101A7100CE59E0 /* SubImplementor1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubImplementor1.m; sourceTree = "<group>"; };
+		4C4A9AC420101AF500CE59E0 /* SubAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAbstraction.h; sourceTree = "<group>"; };
+		4C4A9AC520101AF500CE59E0 /* SubAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubAbstraction.m; sourceTree = "<group>"; };
 		4C9983E21FFD9E300070A903 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		4C9983E31FFD9E300070A903 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		4C9983E51FFD9E480070A903 /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
@@ -190,6 +205,23 @@
 			name = Adaptee;
 			sourceTree = "<group>";
 		};
+		4C4A9AB72010186600CE59E0 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A9AB8201019C800CE59E0 /* Abstraction.h */,
+				4C4A9AB9201019C800CE59E0 /* Abstraction.m */,
+				4C4A9ABB201019FD00CE59E0 /* Implementor.h */,
+				4C4A9ABC201019FD00CE59E0 /* Implementor.m */,
+				4C4A9ABE20101A5200CE59E0 /* SubImplementor.h */,
+				4C4A9ABF20101A5200CE59E0 /* SubImplementor.m */,
+				4C4A9AC120101A7100CE59E0 /* SubImplementor1.h */,
+				4C4A9AC220101A7100CE59E0 /* SubImplementor1.m */,
+				4C4A9AC420101AF500CE59E0 /* SubAbstraction.h */,
+				4C4A9AC520101AF500CE59E0 /* SubAbstraction.m */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
 		4CC901EE2006D874001BD420 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +262,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4C4A9AB72010186600CE59E0 /* Bridge */,
 				4C4A9AB0200D6AE400CE59E0 /* Adaptee */,
 				4CC901EE2006D874001BD420 /* Builder */,
 				4C1DA4A220057B870038BC35 /* FactoryMethod */,
@@ -419,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1DA4A520057BB30038BC35 /* CanvasView.m in Sources */,
+				4C4A9ABA201019C800CE59E0 /* Abstraction.m in Sources */,
 				4CC901FD2006D984001BD420 /* Director.m in Sources */,
 				4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */,
 				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
@@ -430,13 +464,17 @@
 				4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */,
 				4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */,
 				4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */,
+				4C4A9AC620101AF500CE59E0 /* SubAbstraction.m in Sources */,
 				4CC901F72006D8FC001BD420 /* BuilderObject.m in Sources */,
+				4C4A9AC020101A5200CE59E0 /* SubImplementor.m in Sources */,
 				4C9983F21FFEF0150070A903 /* Scribble.m in Sources */,
 				4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */,
+				4C4A9AC320101A7100CE59E0 /* SubImplementor1.m in Sources */,
 				4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */,
 				4C1DA4A820057C150038BC35 /* PaperCanvasView.m in Sources */,
 				4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */,
 				4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */,
+				4C4A9ABD201019FD00CE59E0 /* Implementor.m in Sources */,
 				4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */,
 				4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
