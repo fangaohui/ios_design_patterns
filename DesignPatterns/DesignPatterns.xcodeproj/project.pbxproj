@@ -229,6 +229,13 @@
 			name = Facade;
 			sourceTree = "<group>";
 		};
+		4C7AEA7C20155F640001BD73 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mediator;
+			sourceTree = "<group>";
+		};
 		4CC901EE2006D874001BD420 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +276,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4C7AEA7C20155F640001BD73 /* Mediator */,
 				4C5A92A62011665D00827DAE /* Facade */,
 				4C4A9AB72010186600CE59E0 /* Bridge */,
 				4C4A9AB0200D6AE400CE59E0 /* Adaptee */,
