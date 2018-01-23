@@ -35,6 +35,7 @@
 		4CC901F72006D8FC001BD420 /* BuilderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F62006D8FC001BD420 /* BuilderObject.m */; };
 		4CC901FA2006D937001BD420 /* SubBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F92006D937001BD420 /* SubBuilder.m */; };
 		4CC901FD2006D984001BD420 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901FC2006D984001BD420 /* Director.m */; };
+		4CDB0E832017FDFB00CE8621 /* CocoaIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB0E822017FDFB00CE8621 /* CocoaIterator.m */; };
 		4CE3B5261FFC4843003031D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5251FFC4843003031D0 /* main.m */; };
 		4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5281FFC4843003031D0 /* AppDelegate.m */; };
 		4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B52B1FFC4843003031D0 /* ViewController.m */; };
@@ -119,6 +120,8 @@
 		4CC901F92006D937001BD420 /* SubBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubBuilder.m; sourceTree = "<group>"; };
 		4CC901FB2006D984001BD420 /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
 		4CC901FC2006D984001BD420 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		4CDB0E812017FDFB00CE8621 /* CocoaIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaIterator.h; sourceTree = "<group>"; };
+		4CDB0E822017FDFB00CE8621 /* CocoaIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaIterator.m; sourceTree = "<group>"; };
 		4CE3B5211FFC4843003031D0 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE3B5251FFC4843003031D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CE3B5271FFC4843003031D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -260,6 +263,15 @@
 			name = Builder;
 			sourceTree = "<group>";
 		};
+		4CDB0E802017FDC300CE8621 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				4CDB0E812017FDFB00CE8621 /* CocoaIterator.h */,
+				4CDB0E822017FDFB00CE8621 /* CocoaIterator.m */,
+			);
+			name = Iterator;
+			sourceTree = "<group>";
+		};
 		4CE3B5181FFC4843003031D0 = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +295,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4CDB0E802017FDC300CE8621 /* Iterator */,
 				4C7AEA7D2016AD520001BD73 /* Composite */,
 				4C7AEA7C20155F640001BD73 /* Mediator */,
 				4C5A92A62011665D00827DAE /* Facade */,
@@ -500,6 +513,7 @@
 				4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */,
 				4C4A9ABD201019FD00CE59E0 /* Implementor.m in Sources */,
 				4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */,
+				4CDB0E832017FDFB00CE8621 /* CocoaIterator.m in Sources */,
 				4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
 				4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */,
