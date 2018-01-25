@@ -30,6 +30,7 @@
 		4C9983F21FFEF0150070A903 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F11FFEF0150070A903 /* Scribble.m */; };
 		4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */; };
 		4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F71FFEF0430070A903 /* ScribbleManager.m */; };
+		4CB7125B201955550030BB8A /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7125A201955550030BB8A /* MarkEnumerator.m */; };
 		4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F02006D89E001BD420 /* BuilderClientViewController.m */; };
 		4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F32006D8DC001BD420 /* AbstractBuilder.m */; };
 		4CC901F72006D8FC001BD420 /* BuilderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F62006D8FC001BD420 /* BuilderObject.m */; };
@@ -110,6 +111,9 @@
 		4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
 		4C9983F61FFEF0430070A903 /* ScribbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
 		4C9983F71FFEF0430070A903 /* ScribbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
+		4CB71259201955550030BB8A /* MarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
+		4CB7125A201955550030BB8A /* MarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
+		4CB7125C201955C30030BB8A /* MarkEnumerator+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarkEnumerator+Stack.h"; sourceTree = "<group>"; };
 		4CC901EF2006D89E001BD420 /* BuilderClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderClientViewController.h; sourceTree = "<group>"; };
 		4CC901F02006D89E001BD420 /* BuilderClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderClientViewController.m; sourceTree = "<group>"; };
 		4CC901F22006D8DC001BD420 /* AbstractBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBuilder.h; sourceTree = "<group>"; };
@@ -268,6 +272,9 @@
 			children = (
 				4CDB0E812017FDFB00CE8621 /* CocoaIterator.h */,
 				4CDB0E822017FDFB00CE8621 /* CocoaIterator.m */,
+				4CB71259201955550030BB8A /* MarkEnumerator.h */,
+				4CB7125A201955550030BB8A /* MarkEnumerator.m */,
+				4CB7125C201955C30030BB8A /* MarkEnumerator+Stack.h */,
 			);
 			name = Iterator;
 			sourceTree = "<group>";
@@ -488,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB7125B201955550030BB8A /* MarkEnumerator.m in Sources */,
 				4C1DA4A520057BB30038BC35 /* CanvasView.m in Sources */,
 				4C4A9ABA201019C800CE59E0 /* Abstraction.m in Sources */,
 				4CC901FD2006D984001BD420 /* Director.m in Sources */,

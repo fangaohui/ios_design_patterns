@@ -10,6 +10,9 @@
 
 @implementation Implementor
 
--(void)loadCommand:(NSInteger)command;
+-(void)loadCommand:(NSInteger)command
+{
+
+}
 
 @end

@@ -10,9 +10,6 @@
 
 @interface Implementor : NSObject
 
--(void)loadCommand:(NSInteger)command
-{
-    
-}
+-(void)loadCommand:(NSInteger)command;
 
 @end
