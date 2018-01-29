@@ -44,6 +44,7 @@
 		4CE3B5341FFC4843003031D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE3B5321FFC4843003031D0 /* LaunchScreen.storyboard */; };
 		4CE3B53F1FFC4843003031D0 /* DesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B53E1FFC4843003031D0 /* DesignPatternsTests.m */; };
 		4CE3B54A1FFC4843003031D0 /* DesignPatternsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3B5491FFC4843003031D0 /* DesignPatternsUITests.m */; };
+		4CEB852E201E9BCF003FE15E /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB852D201E9BCF003FE15E /* NSMutableArray+Stack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +142,8 @@
 		4CE3B5451FFC4843003031D0 /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE3B5491FFC4843003031D0 /* DesignPatternsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsUITests.m; sourceTree = "<group>"; };
 		4CE3B54B1FFC4843003031D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEB852C201E9BCF003FE15E /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		4CEB852D201E9BCF003FE15E /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +278,8 @@
 				4CB71259201955550030BB8A /* MarkEnumerator.h */,
 				4CB7125A201955550030BB8A /* MarkEnumerator.m */,
 				4CB7125C201955C30030BB8A /* MarkEnumerator+Stack.h */,
+				4CEB852C201E9BCF003FE15E /* NSMutableArray+Stack.h */,
+				4CEB852D201E9BCF003FE15E /* NSMutableArray+Stack.m */,
 			);
 			name = Iterator;
 			sourceTree = "<group>";
@@ -521,6 +526,7 @@
 				4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */,
 				4C4A9ABD201019FD00CE59E0 /* Implementor.m in Sources */,
 				4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */,
+				4CEB852E201E9BCF003FE15E /* NSMutableArray+Stack.m in Sources */,
 				4CDB0E832017FDFB00CE8621 /* CocoaIterator.m in Sources */,
 				4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
