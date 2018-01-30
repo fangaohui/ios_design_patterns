@@ -264,6 +264,13 @@
 			name = Composite;
 			sourceTree = "<group>";
 		};
+		4C7DA08820213E31005BB67C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
 		4CA818C0201FEA1C00BF6977 /* Visitor */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,6 +340,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4C7DA08820213E31005BB67C /* Component */,
 				4CA818C0201FEA1C00BF6977 /* Visitor */,
 				4CDB0E802017FDC300CE8621 /* Iterator */,
 				4C7AEA7D2016AD520001BD73 /* Composite */,
