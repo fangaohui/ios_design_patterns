@@ -30,6 +30,9 @@
 		4C9983F21FFEF0150070A903 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F11FFEF0150070A903 /* Scribble.m */; };
 		4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */; };
 		4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983F71FFEF0430070A903 /* ScribbleManager.m */; };
+		4CA818C6201FEAC000BF6977 /* MarkRanderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA818C5201FEAC000BF6977 /* MarkRanderer.m */; };
+		4CA818CF201FEC6100BF6977 /* DotMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA818CE201FEC6100BF6977 /* DotMark.m */; };
+		4CA818D2201FEC6E00BF6977 /* StrokeMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA818D1201FEC6E00BF6977 /* StrokeMark.m */; };
 		4CB7125B201955550030BB8A /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7125A201955550030BB8A /* MarkEnumerator.m */; };
 		4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F02006D89E001BD420 /* BuilderClientViewController.m */; };
 		4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F32006D8DC001BD420 /* AbstractBuilder.m */; };
@@ -112,6 +115,14 @@
 		4C9983F41FFEF02F0070A903 /* ScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
 		4C9983F61FFEF0430070A903 /* ScribbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
 		4C9983F71FFEF0430070A903 /* ScribbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
+		4CA818C1201FEA4000BF6977 /* VisitorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorProtocol.h; sourceTree = "<group>"; };
+		4CA818C4201FEAC000BF6977 /* MarkRanderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkRanderer.h; sourceTree = "<group>"; };
+		4CA818C5201FEAC000BF6977 /* MarkRanderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkRanderer.m; sourceTree = "<group>"; };
+		4CA818CA201FEC0F00BF6977 /* MarkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkProtocol.h; sourceTree = "<group>"; };
+		4CA818CD201FEC6100BF6977 /* DotMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotMark.h; sourceTree = "<group>"; };
+		4CA818CE201FEC6100BF6977 /* DotMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotMark.m; sourceTree = "<group>"; };
+		4CA818D0201FEC6E00BF6977 /* StrokeMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeMark.h; sourceTree = "<group>"; };
+		4CA818D1201FEC6E00BF6977 /* StrokeMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeMark.m; sourceTree = "<group>"; };
 		4CB71259201955550030BB8A /* MarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
 		4CB7125A201955550030BB8A /* MarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
 		4CB7125C201955C30030BB8A /* MarkEnumerator+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarkEnumerator+Stack.h"; sourceTree = "<group>"; };
@@ -253,6 +264,21 @@
 			name = Composite;
 			sourceTree = "<group>";
 		};
+		4CA818C0201FEA1C00BF6977 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				4CA818C1201FEA4000BF6977 /* VisitorProtocol.h */,
+				4CA818C4201FEAC000BF6977 /* MarkRanderer.h */,
+				4CA818C5201FEAC000BF6977 /* MarkRanderer.m */,
+				4CA818CA201FEC0F00BF6977 /* MarkProtocol.h */,
+				4CA818CD201FEC6100BF6977 /* DotMark.h */,
+				4CA818CE201FEC6100BF6977 /* DotMark.m */,
+				4CA818D0201FEC6E00BF6977 /* StrokeMark.h */,
+				4CA818D1201FEC6E00BF6977 /* StrokeMark.m */,
+			);
+			name = Visitor;
+			sourceTree = "<group>";
+		};
 		4CC901EE2006D874001BD420 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +333,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4CA818C0201FEA1C00BF6977 /* Visitor */,
 				4CDB0E802017FDC300CE8621 /* Iterator */,
 				4C7AEA7D2016AD520001BD73 /* Composite */,
 				4C7AEA7C20155F640001BD73 /* Mediator */,
@@ -503,6 +530,7 @@
 				4CB7125B201955550030BB8A /* MarkEnumerator.m in Sources */,
 				4C1DA4A520057BB30038BC35 /* CanvasView.m in Sources */,
 				4C4A9ABA201019C800CE59E0 /* Abstraction.m in Sources */,
+				4CA818D2201FEC6E00BF6977 /* StrokeMark.m in Sources */,
 				4CC901FD2006D984001BD420 /* Director.m in Sources */,
 				4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */,
 				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
@@ -511,8 +539,10 @@
 				4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */,
 				4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */,
 				4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */,
+				4CA818C6201FEAC000BF6977 /* MarkRanderer.m in Sources */,
 				4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */,
 				4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */,
+				4CA818CF201FEC6100BF6977 /* DotMark.m in Sources */,
 				4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */,
 				4C4A9AC620101AF500CE59E0 /* SubAbstraction.m in Sources */,
 				4CC901F72006D8FC001BD420 /* BuilderObject.m in Sources */,
