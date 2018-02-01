@@ -23,6 +23,7 @@
 		4C4A9AC020101A5200CE59E0 /* SubImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9ABF20101A5200CE59E0 /* SubImplementor.m */; };
 		4C4A9AC320101A7100CE59E0 /* SubImplementor1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC220101A7100CE59E0 /* SubImplementor1.m */; };
 		4C4A9AC620101AF500CE59E0 /* SubAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC520101AF500CE59E0 /* SubAbstraction.m */; };
+		4C98C55F202295CE0070E057 /* ComponentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98C55E202295CE0070E057 /* ComponentTest.m */; };
 		4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E31FFD9E300070A903 /* CanvasViewController.m */; };
 		4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E61FFD9E480070A903 /* PaletteViewController.m */; };
 		4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E91FFD9E5C0070A903 /* ThumbnailViewController.m */; };
@@ -101,6 +102,8 @@
 		4C4A9AC220101A7100CE59E0 /* SubImplementor1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubImplementor1.m; sourceTree = "<group>"; };
 		4C4A9AC420101AF500CE59E0 /* SubAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAbstraction.h; sourceTree = "<group>"; };
 		4C4A9AC520101AF500CE59E0 /* SubAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubAbstraction.m; sourceTree = "<group>"; };
+		4C98C55D202295CE0070E057 /* ComponentTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentTest.h; sourceTree = "<group>"; };
+		4C98C55E202295CE0070E057 /* ComponentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentTest.m; sourceTree = "<group>"; };
 		4C9983E21FFD9E300070A903 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
 		4C9983E31FFD9E300070A903 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		4C9983E51FFD9E480070A903 /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
@@ -267,6 +270,8 @@
 		4C7DA08820213E31005BB67C /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				4C98C55D202295CE0070E057 /* ComponentTest.h */,
+				4C98C55E202295CE0070E057 /* ComponentTest.m */,
 			);
 			name = Component;
 			sourceTree = "<group>";
@@ -562,6 +567,7 @@
 				4C1DA4A820057C150038BC35 /* PaperCanvasView.m in Sources */,
 				4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */,
 				4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */,
+				4C98C55F202295CE0070E057 /* ComponentTest.m in Sources */,
 				4C4A9ABD201019FD00CE59E0 /* Implementor.m in Sources */,
 				4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */,
 				4CEB852E201E9BCF003FE15E /* NSMutableArray+Stack.m in Sources */,
