@@ -16,6 +16,9 @@
 		4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B020057D020038BC35 /* PaperCanvasViewGenerator.m */; };
 		4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */; };
 		4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */; };
+		4C296E8D2023E09500293302 /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C296E8C2023E09500293302 /* ImageFilter.m */; };
+		4C296E902023E1EB00293302 /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C296E8F2023E1EB00293302 /* ImageTransformFilter.m */; };
+		4C296E932023E22200293302 /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C296E922023E22200293302 /* ImageShadowFilter.m */; };
 		4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB2200EC9A200CE59E0 /* Command.m */; };
 		4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB5200EC9DE00CE59E0 /* CommandSlider.m */; };
 		4C4A9ABA201019C800CE59E0 /* Abstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AB9201019C800CE59E0 /* Abstraction.m */; };
@@ -88,6 +91,12 @@
 		4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenterator.m; sourceTree = "<group>"; };
 		4C1DA4B520057D7F0038BC35 /* CanvasFactoryEgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasFactoryEgViewController.h; sourceTree = "<group>"; };
 		4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasFactoryEgViewController.m; sourceTree = "<group>"; };
+		4C296E8B2023E09500293302 /* ImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		4C296E8C2023E09500293302 /* ImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		4C296E8E2023E1EB00293302 /* ImageTransformFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
+		4C296E8F2023E1EB00293302 /* ImageTransformFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransformFilter.m; sourceTree = "<group>"; };
+		4C296E912023E22200293302 /* ImageShadowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageShadowFilter.h; sourceTree = "<group>"; };
+		4C296E922023E22200293302 /* ImageShadowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageShadowFilter.m; sourceTree = "<group>"; };
 		4C4A9AB1200EC9A200CE59E0 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		4C4A9AB2200EC9A200CE59E0 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		4C4A9AB4200EC9DE00CE59E0 /* CommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
@@ -272,6 +281,12 @@
 			children = (
 				4C98C55D202295CE0070E057 /* ComponentTest.h */,
 				4C98C55E202295CE0070E057 /* ComponentTest.m */,
+				4C296E8B2023E09500293302 /* ImageFilter.h */,
+				4C296E8C2023E09500293302 /* ImageFilter.m */,
+				4C296E8E2023E1EB00293302 /* ImageTransformFilter.h */,
+				4C296E8F2023E1EB00293302 /* ImageTransformFilter.m */,
+				4C296E912023E22200293302 /* ImageShadowFilter.h */,
+				4C296E922023E22200293302 /* ImageShadowFilter.m */,
 			);
 			name = Component;
 			sourceTree = "<group>";
@@ -555,6 +570,7 @@
 				4CA818C6201FEAC000BF6977 /* MarkRanderer.m in Sources */,
 				4C9983F81FFEF0430070A903 /* ScribbleManager.m in Sources */,
 				4CE3B5291FFC4843003031D0 /* AppDelegate.m in Sources */,
+				4C296E932023E22200293302 /* ImageShadowFilter.m in Sources */,
 				4CA818CF201FEC6100BF6977 /* DotMark.m in Sources */,
 				4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */,
 				4C4A9AC620101AF500CE59E0 /* SubAbstraction.m in Sources */,
@@ -570,10 +586,12 @@
 				4C98C55F202295CE0070E057 /* ComponentTest.m in Sources */,
 				4C4A9ABD201019FD00CE59E0 /* Implementor.m in Sources */,
 				4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */,
+				4C296E902023E1EB00293302 /* ImageTransformFilter.m in Sources */,
 				4CEB852E201E9BCF003FE15E /* NSMutableArray+Stack.m in Sources */,
 				4CDB0E832017FDFB00CE8621 /* CocoaIterator.m in Sources */,
 				4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
+				4C296E8D2023E09500293302 /* ImageFilter.m in Sources */,
 				4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */,
 				4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */,
 				4C1DA4AE20057CA10038BC35 /* CanvasViewGenerator.m in Sources */,
