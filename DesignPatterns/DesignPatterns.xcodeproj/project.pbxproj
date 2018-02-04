@@ -26,6 +26,9 @@
 		4C4A9AC020101A5200CE59E0 /* SubImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9ABF20101A5200CE59E0 /* SubImplementor.m */; };
 		4C4A9AC320101A7100CE59E0 /* SubImplementor1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC220101A7100CE59E0 /* SubImplementor1.m */; };
 		4C4A9AC620101AF500CE59E0 /* SubAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A9AC520101AF500CE59E0 /* SubAbstraction.m */; };
+		4C687CEB2027D3F3006AA034 /* ChainBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C687CEA2027D3F3006AA034 /* ChainBase.m */; };
+		4C687CEE2027D48B006AA034 /* Chain1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C687CED2027D48B006AA034 /* Chain1.m */; };
+		4C687CF12027D4DA006AA034 /* Chain2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C687CF02027D4DA006AA034 /* Chain2.m */; };
 		4C98C55F202295CE0070E057 /* ComponentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98C55E202295CE0070E057 /* ComponentTest.m */; };
 		4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E31FFD9E300070A903 /* CanvasViewController.m */; };
 		4C9983E71FFD9E480070A903 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9983E61FFD9E480070A903 /* PaletteViewController.m */; };
@@ -111,6 +114,12 @@
 		4C4A9AC220101A7100CE59E0 /* SubImplementor1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubImplementor1.m; sourceTree = "<group>"; };
 		4C4A9AC420101AF500CE59E0 /* SubAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubAbstraction.h; sourceTree = "<group>"; };
 		4C4A9AC520101AF500CE59E0 /* SubAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubAbstraction.m; sourceTree = "<group>"; };
+		4C687CE92027D3F3006AA034 /* ChainBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainBase.h; sourceTree = "<group>"; };
+		4C687CEA2027D3F3006AA034 /* ChainBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainBase.m; sourceTree = "<group>"; };
+		4C687CEC2027D48B006AA034 /* Chain1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chain1.h; sourceTree = "<group>"; };
+		4C687CED2027D48B006AA034 /* Chain1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chain1.m; sourceTree = "<group>"; };
+		4C687CEF2027D4DA006AA034 /* Chain2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chain2.h; sourceTree = "<group>"; };
+		4C687CF02027D4DA006AA034 /* Chain2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chain2.m; sourceTree = "<group>"; };
 		4C98C55D202295CE0070E057 /* ComponentTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentTest.h; sourceTree = "<group>"; };
 		4C98C55E202295CE0070E057 /* ComponentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentTest.m; sourceTree = "<group>"; };
 		4C9983E21FFD9E300070A903 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
@@ -262,6 +271,19 @@
 			name = Facade;
 			sourceTree = "<group>";
 		};
+		4C687CE82027D3BD006AA034 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				4C687CE92027D3F3006AA034 /* ChainBase.h */,
+				4C687CEA2027D3F3006AA034 /* ChainBase.m */,
+				4C687CEC2027D48B006AA034 /* Chain1.h */,
+				4C687CED2027D48B006AA034 /* Chain1.m */,
+				4C687CEF2027D4DA006AA034 /* Chain2.h */,
+				4C687CF02027D4DA006AA034 /* Chain2.m */,
+			);
+			name = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
 		4C7AEA7C20155F640001BD73 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +382,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4C687CE82027D3BD006AA034 /* ChainOfResponsibility */,
 				4C7DA08820213E31005BB67C /* Component */,
 				4CA818C0201FEA1C00BF6977 /* Visitor */,
 				4CDB0E802017FDC300CE8621 /* Iterator */,
@@ -561,6 +584,7 @@
 				4CA818D2201FEC6E00BF6977 /* StrokeMark.m in Sources */,
 				4CC901FD2006D984001BD420 /* Director.m in Sources */,
 				4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */,
+				4C687CEB2027D3F3006AA034 /* ChainBase.m in Sources */,
 				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
 				4CC901FA2006D937001BD420 /* SubBuilder.m in Sources */,
 				4C1DA4A12004272E0038BC35 /* PrototypeClient.m in Sources */,
@@ -590,6 +614,8 @@
 				4CEB852E201E9BCF003FE15E /* NSMutableArray+Stack.m in Sources */,
 				4CDB0E832017FDFB00CE8621 /* CocoaIterator.m in Sources */,
 				4C4A9AB6200EC9DE00CE59E0 /* CommandSlider.m in Sources */,
+				4C687CF12027D4DA006AA034 /* Chain2.m in Sources */,
+				4C687CEE2027D48B006AA034 /* Chain1.m in Sources */,
 				4CE3B5261FFC4843003031D0 /* main.m in Sources */,
 				4C296E8D2023E09500293302 /* ImageFilter.m in Sources */,
 				4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */,
