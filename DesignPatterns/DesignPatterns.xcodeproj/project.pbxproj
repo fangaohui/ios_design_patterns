@@ -40,6 +40,8 @@
 		4CA818C6201FEAC000BF6977 /* MarkRanderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA818C5201FEAC000BF6977 /* MarkRanderer.m */; };
 		4CA818CF201FEC6100BF6977 /* DotMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA818CE201FEC6100BF6977 /* DotMark.m */; };
 		4CA818D2201FEC6E00BF6977 /* StrokeMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA818D1201FEC6E00BF6977 /* StrokeMark.m */; };
+		4CAAD47520292787001E8EA1 /* TemplateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAD47420292787001E8EA1 /* TemplateTest.m */; };
+		4CAAD47820292853001E8EA1 /* TemplateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAD47720292853001E8EA1 /* TemplateObject.m */; };
 		4CB7125B201955550030BB8A /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7125A201955550030BB8A /* MarkEnumerator.m */; };
 		4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F02006D89E001BD420 /* BuilderClientViewController.m */; };
 		4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC901F32006D8DC001BD420 /* AbstractBuilder.m */; };
@@ -144,6 +146,10 @@
 		4CA818CE201FEC6100BF6977 /* DotMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotMark.m; sourceTree = "<group>"; };
 		4CA818D0201FEC6E00BF6977 /* StrokeMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeMark.h; sourceTree = "<group>"; };
 		4CA818D1201FEC6E00BF6977 /* StrokeMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeMark.m; sourceTree = "<group>"; };
+		4CAAD47320292787001E8EA1 /* TemplateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateTest.h; sourceTree = "<group>"; };
+		4CAAD47420292787001E8EA1 /* TemplateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateTest.m; sourceTree = "<group>"; };
+		4CAAD47620292853001E8EA1 /* TemplateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateObject.h; sourceTree = "<group>"; };
+		4CAAD47720292853001E8EA1 /* TemplateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateObject.m; sourceTree = "<group>"; };
 		4CB71259201955550030BB8A /* MarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
 		4CB7125A201955550030BB8A /* MarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkEnumerator.m; sourceTree = "<group>"; };
 		4CB7125C201955C30030BB8A /* MarkEnumerator+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarkEnumerator+Stack.h"; sourceTree = "<group>"; };
@@ -328,6 +334,17 @@
 			name = Visitor;
 			sourceTree = "<group>";
 		};
+		4CAAD47220292762001E8EA1 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				4CAAD47320292787001E8EA1 /* TemplateTest.h */,
+				4CAAD47420292787001E8EA1 /* TemplateTest.m */,
+				4CAAD47620292853001E8EA1 /* TemplateObject.h */,
+				4CAAD47720292853001E8EA1 /* TemplateObject.m */,
+			);
+			name = TemplateMethod;
+			sourceTree = "<group>";
+		};
 		4CC901EE2006D874001BD420 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +399,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4CAAD47220292762001E8EA1 /* TemplateMethod */,
 				4C687CE82027D3BD006AA034 /* ChainOfResponsibility */,
 				4C7DA08820213E31005BB67C /* Component */,
 				4CA818C0201FEA1C00BF6977 /* Visitor */,
@@ -578,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAAD47520292787001E8EA1 /* TemplateTest.m in Sources */,
 				4CB7125B201955550030BB8A /* MarkEnumerator.m in Sources */,
 				4C1DA4A520057BB30038BC35 /* CanvasView.m in Sources */,
 				4C4A9ABA201019C800CE59E0 /* Abstraction.m in Sources */,
@@ -603,6 +622,7 @@
 				4C9983F21FFEF0150070A903 /* Scribble.m in Sources */,
 				4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */,
 				4C4A9AC320101A7100CE59E0 /* SubImplementor1.m in Sources */,
+				4CAAD47820292853001E8EA1 /* TemplateObject.m in Sources */,
 				4C9983EA1FFD9E5C0070A903 /* ThumbnailViewController.m in Sources */,
 				4C1DA4A820057C150038BC35 /* PaperCanvasView.m in Sources */,
 				4C9983ED1FFD9E800070A903 /* CoordinatingController.m in Sources */,
