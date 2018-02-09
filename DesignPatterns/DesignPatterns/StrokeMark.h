@@ -13,4 +13,7 @@
 
 @property(nonatomic,strong)NSArray *dots;
 
+-(NSInvocation *)drawScribbleInvocation;
+-(NSInvocation *)undrawScribbleInvocation;
+
 @end

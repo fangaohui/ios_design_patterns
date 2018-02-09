@@ -376,6 +376,13 @@
 			name = Iterator;
 			sourceTree = "<group>";
 		};
+		4CE28F28202D1C4900D574C0 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Command;
+			sourceTree = "<group>";
+		};
 		4CE3B5181FFC4843003031D0 = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +406,7 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4CE28F28202D1C4900D574C0 /* Command */,
 				4CAAD47220292762001E8EA1 /* TemplateMethod */,
 				4C687CE82027D3BD006AA034 /* ChainOfResponsibility */,
 				4C7DA08820213E31005BB67C /* Component */,
