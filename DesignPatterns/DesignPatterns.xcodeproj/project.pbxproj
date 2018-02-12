@@ -16,6 +16,11 @@
 		4C1DA4B120057D020038BC35 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B020057D020038BC35 /* PaperCanvasViewGenerator.m */; };
 		4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */; };
 		4C1DA4B720057D7F0038BC35 /* CanvasFactoryEgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */; };
+		4C2180D820310BB200CE4845 /* ProxyObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2180D720310BB200CE4845 /* ProxyObj.m */; };
+		4C2180DB20310BEB00CE4845 /* RealObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2180DA20310BEB00CE4845 /* RealObj.m */; };
+		4C2180DE20310D7700CE4845 /* TestProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2180DD20310D7700CE4845 /* TestProxy.m */; };
+		4C2180E220310F0D00CE4845 /* FlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2180E120310F0D00CE4845 /* FlowerView.m */; };
+		4C2180E520310F4A00CE4845 /* FlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2180E420310F4A00CE4845 /* FlowerFactory.m */; };
 		4C296E8D2023E09500293302 /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C296E8C2023E09500293302 /* ImageFilter.m */; };
 		4C296E902023E1EB00293302 /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C296E8F2023E1EB00293302 /* ImageTransformFilter.m */; };
 		4C296E932023E22200293302 /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C296E922023E22200293302 /* ImageShadowFilter.m */; };
@@ -96,6 +101,17 @@
 		4C1DA4B320057D150038BC35 /* ClothCanvasViewGenterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenterator.m; sourceTree = "<group>"; };
 		4C1DA4B520057D7F0038BC35 /* CanvasFactoryEgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasFactoryEgViewController.h; sourceTree = "<group>"; };
 		4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasFactoryEgViewController.m; sourceTree = "<group>"; };
+		4C2180D320310B4000CE4845 /* ProxyAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyAbstract.h; sourceTree = "<group>"; };
+		4C2180D620310BB200CE4845 /* ProxyObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyObj.h; sourceTree = "<group>"; };
+		4C2180D720310BB200CE4845 /* ProxyObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyObj.m; sourceTree = "<group>"; };
+		4C2180D920310BEB00CE4845 /* RealObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealObj.h; sourceTree = "<group>"; };
+		4C2180DA20310BEB00CE4845 /* RealObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealObj.m; sourceTree = "<group>"; };
+		4C2180DC20310D7700CE4845 /* TestProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProxy.h; sourceTree = "<group>"; };
+		4C2180DD20310D7700CE4845 /* TestProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProxy.m; sourceTree = "<group>"; };
+		4C2180E020310F0D00CE4845 /* FlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerView.h; sourceTree = "<group>"; };
+		4C2180E120310F0D00CE4845 /* FlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerView.m; sourceTree = "<group>"; };
+		4C2180E320310F4A00CE4845 /* FlowerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerFactory.h; sourceTree = "<group>"; };
+		4C2180E420310F4A00CE4845 /* FlowerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerFactory.m; sourceTree = "<group>"; };
 		4C296E8B2023E09500293302 /* ImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
 		4C296E8C2023E09500293302 /* ImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
 		4C296E8E2023E1EB00293302 /* ImageTransformFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
@@ -240,6 +256,31 @@
 				4C1DA4B620057D7F0038BC35 /* CanvasFactoryEgViewController.m */,
 			);
 			name = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		4C2180D220310A3900CE4845 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				4C2180D320310B4000CE4845 /* ProxyAbstract.h */,
+				4C2180D620310BB200CE4845 /* ProxyObj.h */,
+				4C2180D720310BB200CE4845 /* ProxyObj.m */,
+				4C2180D920310BEB00CE4845 /* RealObj.h */,
+				4C2180DA20310BEB00CE4845 /* RealObj.m */,
+				4C2180DC20310D7700CE4845 /* TestProxy.h */,
+				4C2180DD20310D7700CE4845 /* TestProxy.m */,
+			);
+			name = Proxy;
+			sourceTree = "<group>";
+		};
+		4C2180DF20310ED700CE4845 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				4C2180E020310F0D00CE4845 /* FlowerView.h */,
+				4C2180E120310F0D00CE4845 /* FlowerView.m */,
+				4C2180E320310F4A00CE4845 /* FlowerFactory.h */,
+				4C2180E420310F4A00CE4845 /* FlowerFactory.m */,
+			);
+			name = Flyweight;
 			sourceTree = "<group>";
 		};
 		4C4A9AB0200D6AE400CE59E0 /* Adaptee */ = {
@@ -406,6 +447,8 @@
 		4CE3B5231FFC4843003031D0 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				4C2180DF20310ED700CE4845 /* Flyweight */,
+				4C2180D220310A3900CE4845 /* Proxy */,
 				4CE28F28202D1C4900D574C0 /* Command */,
 				4CAAD47220292762001E8EA1 /* TemplateMethod */,
 				4C687CE82027D3BD006AA034 /* ChainOfResponsibility */,
@@ -613,9 +656,11 @@
 				4CC901F12006D89E001BD420 /* BuilderClientViewController.m in Sources */,
 				4C687CEB2027D3F3006AA034 /* ChainBase.m in Sources */,
 				4C9983E41FFD9E300070A903 /* CanvasViewController.m in Sources */,
+				4C2180DE20310D7700CE4845 /* TestProxy.m in Sources */,
 				4CC901FA2006D937001BD420 /* SubBuilder.m in Sources */,
 				4C1DA4A12004272E0038BC35 /* PrototypeClient.m in Sources */,
 				4CE3B52C1FFC4843003031D0 /* ViewController.m in Sources */,
+				4C2180E220310F0D00CE4845 /* FlowerView.m in Sources */,
 				4C1DA4B420057D150038BC35 /* ClothCanvasViewGenterator.m in Sources */,
 				4C9983F51FFEF02F0070A903 /* ScribbleMemento.m in Sources */,
 				4CA818C6201FEAC000BF6977 /* MarkRanderer.m in Sources */,
@@ -624,6 +669,7 @@
 				4C296E932023E22200293302 /* ImageShadowFilter.m in Sources */,
 				4CA818CF201FEC6100BF6977 /* DotMark.m in Sources */,
 				4CC901F42006D8DC001BD420 /* AbstractBuilder.m in Sources */,
+				4C2180D820310BB200CE4845 /* ProxyObj.m in Sources */,
 				4C4A9AC620101AF500CE59E0 /* SubAbstraction.m in Sources */,
 				4CC901F72006D8FC001BD420 /* BuilderObject.m in Sources */,
 				4C4A9AC020101A5200CE59E0 /* SubImplementor.m in Sources */,
@@ -637,7 +683,9 @@
 				4C1DA49E200426A00038BC35 /* PrototypeClass_1.m in Sources */,
 				4C98C55F202295CE0070E057 /* ComponentTest.m in Sources */,
 				4C4A9ABD201019FD00CE59E0 /* Implementor.m in Sources */,
+				4C2180E520310F4A00CE4845 /* FlowerFactory.m in Sources */,
 				4C4A9AB3200EC9A200CE59E0 /* Command.m in Sources */,
+				4C2180DB20310BEB00CE4845 /* RealObj.m in Sources */,
 				4C296E902023E1EB00293302 /* ImageTransformFilter.m in Sources */,
 				4CEB852E201E9BCF003FE15E /* NSMutableArray+Stack.m in Sources */,
 				4CDB0E832017FDFB00CE8621 /* CocoaIterator.m in Sources */,
